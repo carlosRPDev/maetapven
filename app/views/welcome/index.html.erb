@@ -1,0 +1,215 @@
+<!-- Navbar -->
+<div class="shadow-lg mb-5 bg-white">
+  <span class="border-bottom-5 border-dark">
+    <nav class="navbar navbar-expand-md navbar-dark bg-danger ">
+      <div class="container">
+        <a class="navbar-brand" href="#">Zonas Record</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#NavBarDanger">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="NavBarDanger">
+          <!-- Aqui va el menu a la derecha del navbar -->
+        </div>
+      </div>
+    </nav>
+  </span>
+</div>
+
+<!-- Contendor de formulario buscar punto de venta -->
+<div class="container">
+  <div class="row justify-content-end">
+    <div class="col-lg-4">
+      <form class="" method="post">
+        <div class="input-group">
+          <input type="text" class="form-control" placeholder="Buscar punto de venta">
+          <div class="input-group-append">
+            <button class="btn btn-success" type="submit"><i class="fas fa-search"></i></button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+<!-- Contendor de el menu de las zonas y las cards -->
+<div class="container mt-4">
+  <div class="row">
+
+    <div class="col-sm-3 col-lg-3">
+      <div class="row justify-content-center mt-2">
+        <div class="btn-group-vertical">
+
+          <div class="btn-group dropright">
+            <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown">
+              Monteria
+            </button>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Centro</a>
+              <a class="dropdown-item" href="#">Granja</a>
+              <a class="dropdown-item" href="#">Mocari</a>
+              <a class="dropdown-item" href="#">Pradera</a>
+              <a class="dropdown-item" href="#">Mogambo</a>
+              <a class="dropdown-item" href="#">Dorado</a>
+              <a class="dropdown-item" href="#">Pto. Escondido</a>
+              <a class="dropdown-item" href="#">Los Cordobas</a>
+              <a class="dropdown-item" href="#">Canalete</a>
+            </div>
+          </div>
+
+          <div class="btn-group dropright">
+            <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" id="dropdown2" aria-haspopup="true" aria-expanded="false">
+              Cerete
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdown2">
+              <a class="dropdown-item" href="#">Cerete</a>
+              <a class="dropdown-item" href="#">San Carlos</a>
+              <a class="dropdown-item" href="#">Cienega de Oro</a>
+              <a class="dropdown-item" href="#">Rabolargo</a>
+              <a class="dropdown-item" href="#">San Pelayo</a>
+              <a class="dropdown-item" href="#">Cotorra</a>
+            </div>
+          </div>
+
+          <div class="btn-group dropright">
+            <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown">
+              Sahagun
+            </button>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Ppl Sahagun</a>
+              <a class="dropdown-item" href="#">Chinú</a>
+              <a class="dropdown-item" href="#">Tuchín</a>
+              <a class="dropdown-item" href="#">San Andres</a>
+              <a class="dropdown-item" href="#">Chimá</a>
+            </div>
+          </div>
+
+          <div class="btn-group dropright">
+            <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown">
+              Lorica
+            </button>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Ppal Lorica</a>
+              <a class="dropdown-item" href="#">San Bernando</a>
+              <a class="dropdown-item" href="#">Purisima</a>
+              <a class="dropdown-item" href="#">Union</a>
+              <a class="dropdown-item" href="#">Momil</a>
+              <a class="dropdown-item" href="#">Abroja</a>
+              <a class="dropdown-item" href="#">Moñito</a>
+              <a class="dropdown-item" href="#">El ley</a>
+              <a class="dropdown-item" href="#">San Antero</a>
+            </div>
+          </div>
+
+          <div class="btn-group dropright">
+            <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown">
+              Planeta Rica
+            </button>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Ppl Planeta Rica</a>
+              <a class="dropdown-item" href="#">Pueblo Nuevo</a>
+              <a class="dropdown-item" href="#">Buenavista</a>
+            </div>
+          </div>
+
+          <div class="btn-group dropright">
+            <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown">
+              Tierralta
+            </button>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Ppl Tierralta</a>
+              <a class="dropdown-item" href="#">Valencia</a>
+            </div>
+          </div>
+
+          <div class="btn-group dropright">
+            <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown">
+              Montelibano
+            </button>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Ppl Montelibano</a>
+              <a class="dropdown-item" href="#">Puerto Libertador</a>
+              <a class="dropdown-item" href="#">La Apartada</a>
+              <a class="dropdown-item" href="#">Ayapel</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- contendor de las cards  -->
+    <div class="col-sm-9">
+      <div class="row">
+
+        <div class="col-6 col-sm-5 mt-2">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Codigo del punto</h5>
+                <p class="card-text">Direccion del punto</p>
+                <a href="#" class="btn btn-danger">Detalles</a>
+              </div>
+              <img class="card-img-top" src="https://record.com.co/wp-content/uploads/2019/10/Punto-de-venta-2-300x279.png" alt="Imagen Punto de venta">
+            </div>
+        </div>
+
+        <div class="col-6 col-sm-5 mt-2">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Codigo del punto</h5>
+                <p class="card-text">Direccion del punto</p>
+                <a href="#" class="btn btn-danger">Detalles</a>
+              </div>
+              <img class="card-img-top" src="https://record.com.co/wp-content/uploads/2019/10/Punto-de-venta-2-300x279.png" alt="Imagen Punto de venta">
+            </div>
+        </div>
+
+        <div class="col-6 col-sm-5 mt-2">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Codigo del punto</h5>
+                <p class="card-text">Direccion del punto</p>
+                <a href="#" class="btn btn-danger">Detalles</a>
+              </div>
+              <img class="card-img-top" src="https://record.com.co/wp-content/uploads/2019/10/Punto-de-venta-2-300x279.png" alt="Imagen Punto de venta">
+            </div>
+        </div>
+
+        <div class="col-6 col-sm-5 mt-2">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Codigo del punto</h5>
+                <p class="card-text">Direccion del punto</p>
+                <a href="#" class="btn btn-danger">Detalles</a>
+              </div>
+              <img class="card-img-top" src="https://record.com.co/wp-content/uploads/2019/10/Punto-de-venta-2-300x279.png" alt="Imagen Punto de venta">
+            </div>
+        </div>
+
+        <div class="col-6 col-sm-5 mt-2">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Codigo del punto</h5>
+                <p class="card-text">Direccion del punto</p>
+                <a href="#" class="btn btn-danger">Detalles</a>
+              </div>
+              <img class="card-img-top" src="https://record.com.co/wp-content/uploads/2019/10/Punto-de-venta-2-300x279.png" alt="Imagen Punto de venta">
+            </div>
+        </div>
+
+        <div class="col-6 col-sm-5 mt-2">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Codigo del punto</h5>
+                <p class="card-text">Direccion del punto</p>
+                <a href="#" class="btn btn-danger">Detalles</a>
+              </div>
+              <img class="card-img-top" src="https://record.com.co/wp-content/uploads/2019/10/Punto-de-venta-2-300x279.png" alt="Imagen Punto de venta">
+            </div>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</div>
